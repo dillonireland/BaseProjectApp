@@ -6,7 +6,7 @@ There are several ways to use this as a starting point for your project:
 ## Branch off of master
 Your team can create a `ProjectName` branch from `master`, and do work there.  
 You can even branch off of branches!
-- create a branch from `master` called `ProjectName` (or whatever you choose to call it)
+- create a branch off of `master` called `ProjectName` (or whatever you choose to call it)
 - branch from `ProjectName`, do your work, merge back into `ProjectName`
 
 _NOTE: DO NOT MERGE BACK INTO MASTER_
@@ -29,7 +29,6 @@ organization. Follow the link below for instructions on creating an organization
 for your project team.  
 - [Creating Organizations](https://help.github.com/articles/creating-a-new-organization-from-scratch/)  
 
-
 ### Forking a Repository
 1. Navigate to this project's repository in GitHub (you probably are already here!)
 1. Click the `Fork` button at the top of this page
@@ -47,6 +46,20 @@ is possible to update your fork with those changes.
 ### Making the project yours
 Now that you've created a fork and have your own separate version 
 of this project, you may wish to make some changes:
-- [Rename the repository](https://help.github.com/articles/renaming-a-repository/)
-- change package names (more details coming)
-- Change this readme!! Replace all this with information about your own project
+1. [Rename the repository](https://help.github.com/articles/renaming-a-repository/)
+1. change package names  
+(example: `com.sp18.ssu370.baseprojectapp` to `com.awesometeam.bestproject`)
+  - open `app.gradle` and change the `applicationId` value to `"com.awesometeam.bestproject"`
+  - open the `AndroidManifest` and change the `package=` value to `"com.awesometeam.bestproject"`
+  - change the actual packages:
+    - In your Project pane, click on the little gear icon
+    - Uncheck / De-select the Compact Empty Middle Packages option
+    - Your package directory will now be broken up in individual directories
+    - Individually select each directory you want to rename, and:
+        - Right-click it
+        - Select Refactor
+        - Click on Rename
+        - In the Pop-up dialog, click on Rename Package instead of Rename Directory
+        - Enter the new name and hit Refactor
+        - Click Do Refactor in the bottom
+1. Change this readme!! Replace this entire file with information about your own project
