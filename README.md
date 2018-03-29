@@ -39,6 +39,9 @@ your team it should show up here
 
 You're done!  
 Your fork now has its own space in GitHub.
+
+At this point, all further work should be done in branches. _You don't need to fork again!_
+
 You can now clone it and do all your work with no worry of affecting the original 
 `BaseProjectApp` in any way. If the original "upstream" repository gets updated, it 
 is possible to update your fork with those changes.
