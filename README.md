@@ -37,7 +37,6 @@ for your project team.
 space, or if you've followed the instructions above to create an organization for 
 your team it should show up here
 
-You're done!  
 Your fork now has its own space in GitHub.
 
 At this point, all further work should be done in branches. _You don't need to fork again!_
@@ -48,8 +47,6 @@ is possible to update your fork with those changes.
 
 
 ### Making the project yours
-Now that you've created a fork and have your own separate version 
+Now that you've created a fork and have your own separate, local version 
 of this project, you may wish to make some changes:
 - [Rename the repository](https://help.github.com/articles/renaming-a-repository/)
-- change package names (more details coming)
-- Change this readme!! Replace all this with information about your own project
